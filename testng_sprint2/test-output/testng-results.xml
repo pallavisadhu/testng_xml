@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-12T22:40:36 CST" name="Suite" finished-at="2023-01-12T22:40:37 CST" duration-ms="395">
+    <groups>
+      <group name="smoke">
+        <method signature="Class3.class3_test1()[pri:0, instance:paralleltests.Class3@28261e8e]" name="class3_test1" class="paralleltests.Class3"/>
+        <method signature="Class3.class3_test2()[pri:0, instance:paralleltests.Class3@28261e8e]" name="class3_test2" class="paralleltests.Class3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-01-12T22:40:36 CST" name="Parallel Test" finished-at="2023-01-12T22:40:36 CST" duration-ms="194">
+      <class name="paralleltests.Class6">
+        <test-method signature="class6_test1()[pri:0, instance:paralleltests.Class6@35dab4eb]" started-at="2023-01-12T22:40:36 CST" name="class6_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class6_test1 -->
+      </class> <!-- paralleltests.Class6 -->
+      <class name="paralleltests.Class4">
+        <test-method signature="class4_test1()[pri:0, instance:paralleltests.Class4@d737b89]" started-at="2023-01-12T22:40:36 CST" name="class4_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class4_test1 -->
+        <test-method signature="class4_test1()[pri:0, instance:paralleltests.Class4@d737b89]" started-at="2023-01-12T22:40:36 CST" name="class4_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class4_test1 -->
+        <test-method signature="class4_test1()[pri:0, instance:paralleltests.Class4@d737b89]" started-at="2023-01-12T22:40:36 CST" name="class4_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class4_test1 -->
+      </class> <!-- paralleltests.Class4 -->
+      <class name="paralleltests.Class5">
+        <test-method signature="class5_test1()[pri:0, instance:paralleltests.Class5@8519cb4]" started-at="2023-01-12T22:40:36 CST" name="class5_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class5_test1 -->
+      </class> <!-- paralleltests.Class5 -->
+      <class name="paralleltests.Class3">
+        <test-method signature="class3_test1()[pri:0, instance:paralleltests.Class3@28261e8e]" started-at="2023-01-12T22:40:36 CST" name="class3_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class3_test1 -->
+        <test-method signature="class3_test2()[pri:0, instance:paralleltests.Class3@28261e8e]" started-at="2023-01-12T22:40:36 CST" name="class3_test2" finished-at="2023-01-12T22:40:36 CST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class3_test2 -->
+        <test-method signature="class3_test3()[pri:0, instance:paralleltests.Class3@28261e8e]" started-at="2023-01-12T22:40:36 CST" name="class3_test3" depends-on-groups="smoke" finished-at="2023-01-12T22:40:36 CST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class3_test3 -->
+      </class> <!-- paralleltests.Class3 -->
+      <class name="paralleltests.Class1">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:paralleltests.Class1@742ff096]" started-at="2023-01-12T22:40:36 CST" name="beforeClass" finished-at="2023-01-12T22:40:36 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="class1_test2()[pri:1, instance:paralleltests.Class1@742ff096]" started-at="2023-01-12T22:40:36 CST" name="class1_test2" finished-at="2023-01-12T22:40:36 CST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class1_test2 -->
+        <test-method signature="class1_test1()[pri:2, instance:paralleltests.Class1@742ff096]" started-at="2023-01-12T22:40:36 CST" name="class1_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class1_test1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:paralleltests.Class1@742ff096]" started-at="2023-01-12T22:40:36 CST" name="afterClass" finished-at="2023-01-12T22:40:36 CST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- paralleltests.Class1 -->
+      <class name="paralleltests.class2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:paralleltests.class2@7f485fda]" started-at="2023-01-12T22:40:36 CST" name="beforeClass" finished-at="2023-01-12T22:40:36 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="class2_test1()[pri:0, instance:paralleltests.class2@7f485fda]" started-at="2023-01-12T22:40:36 CST" name="class2_test1" finished-at="2023-01-12T22:40:36 CST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class2_test1 -->
+        <test-method signature="class2_test2()[pri:0, instance:paralleltests.class2@7f485fda]" started-at="2023-01-12T22:40:36 CST" name="class2_test2" finished-at="2023-01-12T22:40:36 CST" depends-on-methods="paralleltests.class2.class2_test1" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class2_test2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:paralleltests.class2@7f485fda]" started-at="2023-01-12T22:40:36 CST" name="afterClass" finished-at="2023-01-12T22:40:36 CST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- paralleltests.class2 -->
+    </test> <!-- Parallel Test -->
+    <test started-at="2023-01-12T22:40:37 CST" name="Seqential Test" finished-at="2023-01-12T22:40:37 CST" duration-ms="43">
+      <class name="paralleltests.Class8">
+        <test-method signature="class8_test1(java.lang.String)[pri:0, instance:paralleltests.Class8@66982506]" started-at="2023-01-12T22:40:37 CST" name="class8_test1" data-provider="testdata" finished-at="2023-01-12T22:40:37 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class8_test1 -->
+        <test-method signature="class8_test1(java.lang.String)[pri:0, instance:paralleltests.Class8@66982506]" started-at="2023-01-12T22:40:37 CST" name="class8_test1" data-provider="testdata" finished-at="2023-01-12T22:40:37 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class8_test1 -->
+      </class> <!-- paralleltests.Class8 -->
+      <class name="paralleltests.Class9">
+        <test-method signature="class9_test1()[pri:0, instance:paralleltests.Class9@70cf32e3]" started-at="2023-01-12T22:40:37 CST" name="class9_test1" finished-at="2023-01-12T22:40:37 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class9_test1 -->
+      </class> <!-- paralleltests.Class9 -->
+      <class name="paralleltests.Class7">
+        <test-method signature="class7_test1(java.lang.String)[pri:0, instance:paralleltests.Class7@72bc6553]" started-at="2023-01-12T22:40:37 CST" name="class7_test1" finished-at="2023-01-12T22:40:37 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testng]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class7_test1 -->
+      </class> <!-- paralleltests.Class7 -->
+      <class name="paralleltests.Class1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:paralleltests.Class1@742ff096]" started-at="2023-01-12T22:40:36 CST" name="beforeSuite" finished-at="2023-01-12T22:40:36 CST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:paralleltests.Class1@742ff096]" started-at="2023-01-12T22:40:37 CST" name="afterSuite" finished-at="2023-01-12T22:40:37 CST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- paralleltests.Class1 -->
+      <class name="paralleltests.Class10">
+        <test-method signature="class10_test1()[pri:0, instance:paralleltests.Class10@5a59ca5e]" started-at="2023-01-12T22:40:37 CST" name="class10_test1" finished-at="2023-01-12T22:40:37 CST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- class10_test1 -->
+      </class> <!-- paralleltests.Class10 -->
+    </test> <!-- Seqential Test -->
+  </suite> <!-- Suite -->
+</testng-results>
